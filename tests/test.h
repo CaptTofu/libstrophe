@@ -12,5 +12,4 @@
     return (num_failed == 0) ? EXIT_SUCCESS : EXIT_FAILURE;\
     }\
       
-
 #endif /* __LIBSTROPHE_TEST_H__ */

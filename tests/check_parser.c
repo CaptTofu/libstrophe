@@ -22,6 +22,12 @@
 
 #include "test.h"
 
+
+void cbtest_handle_start(char *name, char **attrs, void *userdata);
+void cbtest_handle_end(char *name, void *userdata);
+void cbtest_handle_stanza(xmpp_stanza_t *stanza, void *userdata);
+Suite *parser_suite(void);
+/* .... */
 START_TEST(create_destroy)
 {
     xmpp_ctx_t *ctx;
